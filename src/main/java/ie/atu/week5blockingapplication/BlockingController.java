@@ -1,7 +1,9 @@
 package ie.atu.week5blockingapplication;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class BlockingController {
     private final BlockingService blockingService;
 

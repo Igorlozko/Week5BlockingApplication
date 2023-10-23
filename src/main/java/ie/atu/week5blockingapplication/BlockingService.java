@@ -15,6 +15,6 @@ public class BlockingService {
         } catch(InterruptedException e){
             e.printStackTrace();
         }
-        return restTemplate.getForObject("http://jsonplaceholder.typicode.com/todos/1", String.class);
+        return restTemplate.getForObject("https://jsonplaceholder.typicode.com/todos/1", String.class);
     }
 }
